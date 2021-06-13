@@ -29,7 +29,7 @@ public class VersionServer
 
 
 #### Example
-URL | Context | Method | Version
------------- | ------------- | ------------- | -------------
-http://localhost/ | version | ?method=SET | &version=2.0
+URL | Port | Context | Method | Version
+------------ | ------------- | ------------- | ------------- | -------------
+http://localhost | :3030/ | version | ?method=SET | &version=2.0
 
