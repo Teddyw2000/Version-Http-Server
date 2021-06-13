@@ -14,7 +14,7 @@ public class VersionServer
     public void run()
     {
       ...
-            /* Register here a handler new */
+            /* Register a new handler here */
             List<AbstractRequestHandler> handlers = Arrays.asList(
                     new VersionHandler()
             );
