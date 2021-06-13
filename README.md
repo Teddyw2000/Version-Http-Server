@@ -32,4 +32,5 @@ public class VersionServer
 URL | Port | Context | Method | Version
 ------------ | ------------- | ------------- | ------------- | -------------
 http://localhost | :3030/ | version | ?method=SET | &version=2.0
+http://localhost | :3030/ | version | ?method=GET | 
 
