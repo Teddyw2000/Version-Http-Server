@@ -23,9 +23,9 @@ public class VersionServer
 }
 ```
 
-- Methods
-``SET``
-``GET``
+- Methods: 
+`SET`
+`GET`
 
 - See in Web
 ```
