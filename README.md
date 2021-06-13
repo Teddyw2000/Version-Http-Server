@@ -23,8 +23,14 @@ public class VersionServer
 }
 ```
 
+- Methods
+```
+- SET
+- GET
+```
+
 - See in Web
 ```
-Syntax: http://localhost:PORT/CONTEXT
-Example: http://localhost:3030/version
+Syntax: http://localhost:PORT/CONTEXT/?method=METHOD [...]
+Example: http://localhost:3030/version?method=SET&version=1.4
 ```
