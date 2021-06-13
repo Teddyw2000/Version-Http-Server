@@ -1,7 +1,20 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="434fb340-7302-4a98-a26b-2488651d069d" name="Default Changelist" comment="" />
+    <list default="true" id="434fb340-7302-4a98-a26b-2488651d069d" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/dictionaries/teddy.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/de/teddy/versionserver/handler/MethodType.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/de/teddy/versionserver/response/misc/SuccessResponse.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/de/teddy/versionserver/version/VersionSetup.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/de/teddy/versionserver/VersionServer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/de/teddy/versionserver/VersionServer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/de/teddy/versionserver/handler/impl/VersionHandler.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/de/teddy/versionserver/handler/impl/VersionHandler.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/de/teddy/versionserver/Launcher.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/de/teddy/versionserver/Launcher.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/de/teddy/versionserver/VersionServer.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/de/teddy/versionserver/VersionServer.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/de/teddy/versionserver/handler/AbstractRequestHandler.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/de/teddy/versionserver/handler/AbstractRequestHandler.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/de/teddy/versionserver/handler/impl/VersionHandler.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/de/teddy/versionserver/handler/impl/VersionHandler.class" afterDir="false" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -11,9 +24,13 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
+        <option value="Enum" />
         <option value="Class" />
       </list>
     </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="MavenImportPreferences">
     <option name="importingSettings">
@@ -23,7 +40,9 @@
     </option>
   </component>
   <component name="ProjectId" id="1tooJo5nO0VTnLu9rtQVuf5LHgo" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="PropertiesComponent">
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
@@ -72,6 +91,17 @@
       <updated>1623444733898</updated>
     </task>
     <servers />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

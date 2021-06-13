@@ -3,6 +3,7 @@ package de.teddy.versionserver;
 import com.sun.net.httpserver.HttpServer;
 import de.teddy.versionserver.handler.AbstractRequestHandler;
 import de.teddy.versionserver.handler.impl.VersionHandler;
+import de.teddy.versionserver.version.VersionSetup;
 import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
 
@@ -13,11 +14,12 @@ import java.util.List;
 
 public class VersionServer implements Runnable {
 
-    /* The version which is important for the whole system */
-    public static final double version = 1.0;
 
     /* The prefix for the console output */
     public static final String prefix = "VersionServer | ";
+
+    /* The version which is important for the whole system */
+    public static double version = 1.0;
 
     /* The instance of the Main Runnable VersionServer */
     private static VersionServer instance;
@@ -27,6 +29,9 @@ public class VersionServer implements Runnable {
 
     /* The port of the HttpServer which is about to be initialized in the constructor */
     private final int port;
+
+    /* The VersionSetup class to store the version in files and update variable in VersionServer*/
+    private VersionSetup versionSetup = new VersionSetup();
 
     /* The instance of the HttpServer */
     private HttpServer httpServer;
@@ -88,4 +93,6 @@ public class VersionServer implements Runnable {
     public static VersionServer getInstance() { return instance; }
 
     public double getVersion() { return version; }
+
+    public void setVersion(double version) { this.version = version; }
 }
