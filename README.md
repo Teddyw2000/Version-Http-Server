@@ -1,4 +1,4 @@
-# Version-Http-Server
+# Version Http Server
 A Server to configure your program version
 
 ### Code Examples
